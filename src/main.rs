@@ -6,4 +6,10 @@ fn main() {
         println!("the value is {}", a[index]);
         index+=1;
     }
+
+    println!("Now let's do it with a for expression");
+
+    for element in a {
+        println!(" the value is {}", element);
+    }
 }
